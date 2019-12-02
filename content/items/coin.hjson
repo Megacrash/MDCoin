@@ -1,0 +1,6 @@
+type: material
+name: Coin
+description: Coins!
+cost: 1
+color: FEDD7E
+

@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: "Coin -> Titanium"
+description: "Titanium Converter"
+
+size: 2
+category: crafting
+hasItems: true
+hasPower: true
+itemCapacity: 20
+
+craftTime: 2.5
+outputItem: titanium/1
+
+consumes: {
+  power: 1
+   items: {
+    items: [
+      coin/20
+    ]
+ }
+}
+
+requirements: [
+  copper/100
+  lead/100
+]
+
+idleSound: respawning
+idleSoundVolume: 5

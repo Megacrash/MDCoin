@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: "Coin -> Copper"
+description: "Copper Converter"
+
+size: 2
+category: crafting
+hasItems: true
+hasPower: true
+
+craftTime: 2.5
+outputItem: copper/1
+
+consumes: {
+  power: 1
+   items: {
+    items: [
+      coin/5
+    ]
+ }
+}
+
+requirements: [
+  lead/150
+]
+
+idleSound: respawning
+idleSoundVolume: 5

@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: "Coin -> Thorium"
+description: "Thorium Converter"
+
+size: 2
+category: crafting
+hasItems: true
+hasPower: true
+itemCapacity: 40
+
+craftTime: 2.5
+outputItem: thorium/1
+
+consumes: {
+  power: 1
+   items: {
+    items: [
+      coin/40
+    ]
+ }
+}
+
+requirements: [
+  copper/100
+  lead/100
+  titanium/100
+]
+
+idleSound: respawning
+idleSoundVolume: 5

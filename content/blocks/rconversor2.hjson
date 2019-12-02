@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: "Lead -> Coin"
+description: "Lead Converter"
+
+size: 2
+category: crafting
+itemCapacity: 1
+hasPower: true
+
+craftTime: 2.5
+outputItem: coin/6
+
+consumes: {
+  power: 1
+   items: {
+    items: [
+      lead/1
+    ]
+ }
+}
+
+requirements: [
+  lead/250
+]
+
+idleSound: respawning
+idleSoundVolume: 5
