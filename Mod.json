@@ -1,4 +1,6 @@
-name: "MDCoin"
-author: "Megacrash"
-description: "[green]Buy []and [red]Sell []raw materials!"
-version: "1.0"
+{
+	name: "MDCoin", 
+	author: "Megacrash", 
+	description: "ยก[green]Buy []and [red]Sell []raw materials!", 
+	version: "1.0"
+} 
